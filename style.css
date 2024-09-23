@@ -40,4 +40,8 @@ nav a {
     font-size: 1.2rem;
 }
 
-nav a:hover
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
